@@ -1,5 +1,5 @@
 import React from "react";
-import { Breadcrumb, BreadcrumbItem } from "react-bootstrap";
+import { Breadcrumb } from "react-bootstrap";
 import { ROOT_FOLDER } from "../../hooks/useFolder";
 import { Link } from "react-router-dom";
 

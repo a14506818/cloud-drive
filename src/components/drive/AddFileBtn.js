@@ -27,10 +27,9 @@ export default function AddFileBtn({ currentFolder }) {
         : `${currentFolder.path.map((e) => e.name).join("/")}/${
             currentFolder.name
           }/${file.name}`;
-    console.log(filePath);
-    const uploadTask = storage
-      .ref(`/files/${currentUser.uid}/${filePath}`)
-      .put(file);
+    const fileRef = `/files/${currentUser.uid}/${filePath}`;
+    console.log(fileRef);
+    const uploadTask = storage.ref(fileRef).put(file);
 
     uploadTask.on(
       "state_changed",
@@ -58,6 +57,7 @@ export default function AddFileBtn({ currentFolder }) {
       () => {
         uploadTask.snapshot.ref.getDownloadURL().then((url) => {
           console.log(url);
+
           database.files
             .where("name", "==", file.name)
             .where("userId", "==", currentUser.uid)
@@ -68,12 +68,16 @@ export default function AddFileBtn({ currentFolder }) {
               if (existingFile) {
                 existingFile.ref.update({ url: url });
               } else {
+                console.log(file);
+                console.log(file.ref);
                 database.files.add({
                   url: url,
+                  type: file.type,
                   name: file.name,
                   createAt: database.getCurrentTimestamp(),
                   folderId: currentFolder.id,
                   userId: currentUser.uid,
+                  ref: fileRef,
                 });
               }
             });
