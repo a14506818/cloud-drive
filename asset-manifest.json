@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/cloud-drive/static/js/main.3b7e3f31.chunk.js",
-    "main.js.map": "/cloud-drive/static/js/main.3b7e3f31.chunk.js.map",
+    "main.js": "/cloud-drive/static/js/main.d1096a72.chunk.js",
+    "main.js.map": "/cloud-drive/static/js/main.d1096a72.chunk.js.map",
     "runtime-main.js": "/cloud-drive/static/js/runtime-main.9f16592c.js",
     "runtime-main.js.map": "/cloud-drive/static/js/runtime-main.9f16592c.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/cloud-drive/static/css/2.4c97ca4f.chunk.css",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.9f16592c.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.e0504347.chunk.js",
-    "static/js/main.3b7e3f31.chunk.js"
+    "static/js/main.d1096a72.chunk.js"
   ]
 }
