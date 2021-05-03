@@ -1,18 +1,23 @@
-# Getting Started with Create React App
+# Google Drive Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `簡介`
+這是個簡易版的雲端硬碟，主要的功能都是建立於Firebase上，包含Authentication、Firestore及Storage。提供以email註冊的身分驗證和雲端空間，讓使用者新增資料夾、上傳檔案等。
 
-## Available Scripts
+## 作品展示 
 
-In the project directory, you can run:
+### `網址`
+https://a14506818.github.io/cloud-drive/#/
 
-### `npm start`
+### `環境架設`
+此專案的後端是由Firebase提供，網站則是架設在GithubPages上，不需要其他額外設定。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 專案結構 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `身分驗證`
+#### 1. Login
+首先一進到網站就會看到都入畫面，
+
+
 
 ### `npm test`
 
