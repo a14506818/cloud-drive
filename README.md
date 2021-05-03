@@ -100,4 +100,19 @@ https://a14506818.github.io/cloud-drive/#/
 ## C. 小結 
 以上就是此專案目前包含的功能，未來預計新增資料夾的修改、刪除，甚至到drag and drop各個檔案到不同資料夾等。歡迎有興趣的朋友上來玩玩看，由於我是使用免費的Firebase雲端空間，所以只有5GB的容量，不要傳太大的檔案上來哦，感謝!
 
-## D.  
+## D. 技術整理(用來記錄我學到的新技術)
+### a. `外部資源`
+#### 1. Fortawesome + react
+https://hackmd.io/@a14506818/HkV4WaTBO
+#### 2. Boostrap + react
+https://hackmd.io/@a14506818/rk31sEpP_
+#### 3. Firebase
+#### 4. uuid
+https://hackmd.io/@a14506818/HkCFwE6w_
+### b. `React相關`
+#### 1. useRef
+#### 2. useContext
+#### 3. useReducer
+#### 4. ReactDOM
+#### 5. 自製Hooks
+#### 6. 自製Route / useHistory / useParams / useLocation
