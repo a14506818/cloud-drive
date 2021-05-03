@@ -103,12 +103,12 @@ https://a14506818.github.io/cloud-drive/#/
 ## D. 技術整理(用來記錄我學到的新技術)
 ### a. `外部資源`
 #### 1. Fortawesome + react
-https://hackmd.io/@a14506818/HkV4WaTBO
+[Blog](https://hackmd.io/@a14506818/HkV4WaTBO)
 #### 2. Boostrap + react
-https://hackmd.io/@a14506818/rk31sEpP_
+[Blog](https://hackmd.io/@a14506818/rk31sEpP_)
 #### 3. Firebase
 #### 4. uuid
-https://hackmd.io/@a14506818/HkCFwE6w_
+[Blog](https://hackmd.io/@a14506818/HkCFwE6w_)
 ### b. `React相關`
 #### 1. useRef
 #### 2. useContext
